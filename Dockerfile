@@ -9,6 +9,7 @@ RUN apk update && apk add \
      	nmap-nping \
       	nmap-ncat \
 	zmap \
+	busybox \
 	&& rm -rf /var/cache/apk/*
 
 ENTRYPOINT ["nmap"]
